@@ -1,0 +1,12 @@
+body{
+    background-color: lightblue;
+}
+p{
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    /* border: 2px solid red; */
+    color: black;
+    font-size: large;
+    text-align: justify;
+}

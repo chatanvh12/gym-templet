@@ -1,0 +1,40 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(../images/background.jpg);
+}
+.forma{
+    background-color: rgb(105, 106, 107);
+    width: 400px;
+    padding: 5%;
+    padding-top: 2px;
+    margin:auto;
+    border: 2px dotted black;
+}
+.xxxx label{
+    color: orange;
+}
+.xxxx input{
+    clear: both;
+    float: right;
+    width: 50%;
+}
+#title{
+    text-align: center;
+    color: orange;
+}
+.second{
+    margin: auto;
+}
+#mm input{
+    display: block;
+    width: 550px;
+    margin: auto;
+    border: 2px solid black;
+    background-color: orange;
+    
+}
+#mm input:active{
+    background-color: #a4ebb5;
+}
+

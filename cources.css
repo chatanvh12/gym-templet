@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(236, 222, 196);
+}
+.cour{
+    background-color: white;
+    margin: auto;
+    display: block;
+    border: 2px solid orange;
+    width: 50%;
+    box-shadow: 2px 2px 40px -7px black;
+}
+.cour h1{
+    text-shadow: 1px 1px 1px orange;
+    text-align: center;
+}
+.first,.second,.three,.fourth{
+    display: block;
+    width: auto;
+    border: 2px solid red;
+    border-radius: 14px;
+    /* width: 33%; */
+    margin: 8%;
+    padding: 8%;
+    box-shadow: 2px 2px 40px -7px black;
+}
+.cour label{
+    padding: 1%;
+}
+.cour button{
+    box-shadow: 2px 2px 30px -7px rgb(232, 229, 10);
+    margin: -1%;
+    float: right;
+}

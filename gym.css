@@ -1,0 +1,93 @@
+/*css reshat*/
+body{
+    padding: 0;
+    margin: 0;
+    color: white;
+    /* background-color: black; */
+    background-image: url(../images/background.jpg);
+}
+
+.left{
+ /* border: 2px solid red; */
+ display: inline-block;
+ position: fixed;
+ left: 10px;
+ top: 15px;
+}
+.min{
+/* border: 2px solid green; */
+display: block;
+margin: auto;
+width: 43%;
+margin: 12px auto;
+}
+.right{
+ /* border: 2px solid yellow; */
+ display: inline-block;
+ position: fixed;
+ right: 10px;
+ top: 5px;
+}
+.left div{
+    line-height: 0px;
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: larger;
+}
+.left img{
+    width: 160px;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 30px 23px;
+}
+.navbar li a:hover,.navbar li a:active{
+    color: rgb(247, 217, 162);
+    text-decoration: underline;
+}
+.right {
+    border: 2px solid rgb(153, 253, 0);
+    margin-top: 10px;
+    padding: 10px;
+}
+.right a{
+    color: rgb(153, 253, 0);
+    text-decoration: none;
+    padding: 0px;
+    font-size: larger;
+}
+.right a:hover,.right a:active{
+    color: rgb(247, 217, 162);
+    text-decoration: underline;
+}
+.h2{ 
+    /* border: 2px solid red; */
+    margin: 125px;
+    margin-top: 190px;
+    text-align: center;
+    color: hsl(39, 100%, 50%);
+
+}
+.h2 Button{
+    background: green;
+}
+.h2 Button a{
+    text-decoration: none;
+    color: white;
+}
+.h2 a:hover,.h2 a:active{
+    color:orange;
+    text-decoration: underline;
+}
+.log {
+    color: white;
+    font-size: smaller;
+}
+.log a{
+    color: wheat;
+}
